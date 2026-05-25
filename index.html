@@ -125,7 +125,7 @@
     .tab-label { font-size: 10px; font-weight: 500; }
 
     /* Пуш-уведомления */
-    #notification-container { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; display: flex; flex-direction: column; align-items: center; padding-top: env(safe-area-inset-top); pointer-events: none; }
+    #notification-container { position: fixed; top: 70px; left: 0; right: 0; z-index: 1000; display: flex; flex-direction: column; align-items: center; padding-top: env(safe-area-inset-top); pointer-events: none; }
     .push-notification { width: 92%; max-width: 400px; background: rgba(255, 255, 255, 0.65); backdrop-filter: blur(25px) saturate(200%); border-radius: 24px; padding: 14px 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.12); display: flex; gap: 12px; margin-top: 10px; transform: translateY(-150%); opacity: 0; transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.6s ease; pointer-events: auto; cursor: pointer; }
     @media (prefers-color-scheme: dark) { .push-notification { background: rgba(30, 30, 30, 0.65); } }
     .push-notification.show { transform: translateY(0); opacity: 1; }
