@@ -191,24 +191,19 @@
   </div>
 
   <div id="tab-media" class="tab-content">
-    <div class="header">
-      <p>Плейлист</p>
-      <h1>Наша музыка</h1>
-    </div>
-    
-    <div class="card">
-      <img src="nastya.jpg" class="player-cover" alt="Обложка">
-      <div class="player-info">
-        <div class="player-title">Лучшие моменты</div>
-        <div class="player-artist">Ярослав & Настя</div>
-      </div>
-      <div class="player-controls">
-        <div class="btn-play" onclick="tg.HapticFeedback.impactOccurred('medium')">⏮</div>
-        <div class="btn-play" style="width: 70px; height: 70px; font-size: 30px;" onclick="tg.HapticFeedback.impactOccurred('heavy')">▶️</div>
-        <div class="btn-play" onclick="tg.HapticFeedback.impactOccurred('medium')">⏭</div>
-      </div>
-    </div>
+  <div class="header">
+    <p>Плейлист</p>
+    <h1>Наша музыка</h1>
   </div>
+
+  <div class="card" style="padding: 20px; text-align: center;">
+    <h3 style="margin-bottom: 15px; font-weight: 600; color: var(--ios-text-main);">Наша песня ❤️</h3>
+    <audio controls style="width: 100%; border-radius: 10px; outline: none;">
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</div>
+    
 
   <div id="tab-settings" class="tab-content">
     <div class="header">
